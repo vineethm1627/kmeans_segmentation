@@ -46,7 +46,6 @@ def main():
         
         # reshape data into the original image dimensions 
         segmented_image = segmented_data.reshape((image.shape)) 
-        cv2.imwrite("saved_output/output.jpg", segmented_image)
         st.image(segmented_image, caption = "Output Image", use_column_width = True)
 
         
