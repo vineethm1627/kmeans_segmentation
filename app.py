@@ -6,7 +6,6 @@ from sklearn.cluster import KMeans
 
 def main():
     st.title("Image Segmentation using K-Means Clustering")
-    st.write(cv2.__version__)
     st.sidebar.title("K Means Clustering Algorithm :")
     k = st.sidebar.number_input("Value of K : ", 0, 50, 3, step = 1)
     st.sidebar.markdown("K Means is a clustering algorithm. Clustering algorithms are unsupervised algorithms which means that there is no labelled data available. It is used to identify different classes or clusters in the given data based on how similar the data is. Data points in the same group are more similar to other data points in that same group than those in other groups. K-means clustering is one of the most commonly used clustering algorithms. Here, k represents the number of clusters.")
