@@ -13,3 +13,8 @@ Image Segmentation using K-Means Clustering
 
 Note : The extensions allowed : "jpg", "jpeg", "png"
          It is very easy to add custom extensions, just add them in the type list.
+
+## Demo Snapshots :
+![demo_1](demo_1.png)
+
+![demo_2](demo_2.png)
